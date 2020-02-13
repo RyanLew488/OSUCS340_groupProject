@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manage Users</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="manageUsers.html">Manage Users</a></li>
+            <li><a href="manageInventory.html">Manage Inventory</a></li>
+            <li><a href="manageFFLs.html">Manage FFLs</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div id="addUser">
+        <h1>Add a customer</h1>
+        <form>
+            First Name:
+            <input type = "text" name=fname>
+            <br>
+            Last Name:
+            <input type = "text" name=lname>
+            <br>
+            email:
+            <input type = "email" name=email>
+            <br>
+            Shipping Address:
+            <input type = "text" name=address>
+            <br>
+            Preferred FFL Name:
+            <input type = "text" name=FFLName>
+            <br>
+            Preffered FFL Address:
+            <input type = "text" name=FFLAddress>
+            <br>
+            <button type = "button" name="addUser" onclick="alert('')">Add</button>
+            <br>
+        </form>
+    </div>
+
+    <div id="updateUser">
+        <h1>Update user</h1>
+        <h3>Search for a customer by first name and last name.</h3>
+        First Name:
+        <input type = "text" name=fname>
+        <br>
+        Last Name:
+        <input type = "text" name=lname>
+        <br>
+        <button type = "button" name="searchUser" onclick="alert('')">Search</button>
+        <br>
+        <br>
+        <h3<>Update customer's field</h3>
+        <br>
+        <br>
+        First Name:
+        <input type = "text" name=fname>
+        <br>
+        Last Name:
+        <input type = "text" name=lname>
+        <br>
+        email:
+        <input type = "email" name=email>
+        <br>
+        Shipping Address:
+        <input type = "text" name=address>
+        <br>
+        Preferred FFL Name:
+        <input type = "text" name=FFLName>
+        <br>
+        Preffered FFL Address:
+        <input type = "text" name=FFLAddress>
+        <br>
+        <button type = "button" name="updateUser" onclick="alert('')">Update</button>
+        <br>
+    </div>
+    <div id="deleteUser">
+        <h1>Delete a customer</h1>
+        <form>
+            First Name:
+            <input type = "text" name=fname>
+            <br>
+            Last Name:
+            <input type = "text" name=lname>
+            <br>
+            email:
+            <input type = "email" name=email>
+            <br>
+            <button type = "button" name="deleteUserButton" onclick="alert('')">Delete</button>
+            <br>
+        </form>
+    </div>
+</body>
+</html>

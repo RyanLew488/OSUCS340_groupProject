@@ -1,0 +1,34 @@
+header {
+    background: #55d6aa;
+  }
+  
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+body {
+	margin: 0;
+    padding-left: 20px;
+	font-weight: 800;
+}
+
+nav {
+    float: left;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+  

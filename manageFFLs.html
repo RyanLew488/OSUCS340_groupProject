@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manage Firearm Dealers</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="manageUsers.html">Manage Users</a></li>
+            <li><a href="manageInventory.html">Manage Inventory</a></li>
+            <li><a href="manageFFLs.html">Manage FFLs</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div id="addFFL">
+        <h1>Add a FFL</h1>
+        <form>
+            FFL Number:
+            <input type = "text" name="FFLNumber">
+            <br>
+            Name:
+            <input type = "text" name="name">
+            <br>
+            email:
+            <input type = "email" name="email">
+            <br>
+            Phone Number:
+            <input type = "text" name="FFLPhone">
+            <br>
+            Address:
+            <input type = "text" name="address">
+            <br>
+            <button type = "button" name="createFFL" onclick="alert('')">Add</button>
+        </form>
+
+        <div id="updateFFL">
+            <h1>Update FFL</h1>
+            <h3>Search for a FFL by their registered FFL number.</h3>
+            FFL Number:
+            <input type = "text" name="FFLSearch">
+            <br>
+            <button type = "button" name="searchFFL" onclick="alert('')">Search</button>
+            <br>
+            <h3<>Update FFL fields</h3>
+            <br>
+            <br>
+            Name:
+            <input type = "text" name=name>
+            <br>
+            Address:
+            <input type = "text" name=address>
+            <br>
+            Phone Number:
+            <input type = "email" name=phoneNumber>
+            <br>
+            Shipping Address:
+            <input type = "text" name=address>
+            <br>
+            <button type = "button" name="updateFFL" onclick="alert('')">Update</button>
+            <br>
+        </div>
+</body>
+</html>
